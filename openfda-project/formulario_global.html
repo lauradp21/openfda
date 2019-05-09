@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Bienvenido a nuestra pagina web, seleccione lo que desea que le facilitemos</h2>
+
+<form action="/searchDrug">
+  Principio activo:<br>
+   <input type="text" name="principio_activo">
+   <br><br>
+   Limite: <input type="text" name="limit_farmacos2" value = "1">
+   <br><br>
+   <input type="submit" value="Buscar farmacos">
+   <br><br>
+
+<form action="/searchCompany">
+  Empresa:<br>
+  <input type="text" name="empresa">
+  <br><br>
+  Limite: <input type="text" name="limit_empresa2" value = "1">
+  <br><br>
+  <input type="submit" value="Buscar empresa">
+  <br><br>
+
+<form action="/listDrugs">
+  Si desea una lista de farmacos, rellene este espacio con el numero de farmacos que quiere que le aparezcan y pulse el boton "Listado de farmacos de FDA":<br>
+  <input type="text" name="limit_farmacos" value = "1">
+  <br><br>
+  <input type="submit" value="Listado de farmacos de FDA">
+  <br><br>
+
+<form action="/listCompanies">
+  Si desea una lista de empresas, rellene este espacio con el numero de empresas que quiere que le aparezcan y pulse el boton "Listado de empresas":<br>
+  <input type="text" name="limit_empresas" value = "1">
+  <br><br>
+  <input type="submit" value="Listado de empresas">
+  <br><br>
+
+<form action="/listWarnings">
+  Si desea una lista con las advertencias de los farmacos, rellene este espacio con el numero de advertencias que desee y pulse el boton "Listado de advertencias":<br>
+  <input type="text" name="limit_advertencias" value = "1">
+  <br><br>
+  <input type="submit" value="Listado de advertencias">
+</form>
+
+
+</body>
+</html>
